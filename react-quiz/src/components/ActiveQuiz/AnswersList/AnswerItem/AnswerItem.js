@@ -6,6 +6,7 @@ const AnswerItem = props => {
     if (props.state) {
         cls.push(classes[props.state])
     }
+    // console.log(props)
     return (
         <li 
         onClick={()=> props.onAnswerClick(props.answer.id)}
